@@ -33,7 +33,7 @@
             >;
         };
 
-        bt_layer {
+        other_layer {
             bindings = <
 &none  &none  &none  &none  &none  &kp GRAVE                         &none              &kp PG_UP  &kp LC(LG(LEFT))  &kp UP_ARROW  &kp LS(LG(RIGHT))  &kp PG_DN
 &none  &none  &none  &none  &none  &kp BACKSLASH                     &none              &kp HOME   &kp LEFT          &kp DOWN      &kp RIGHT          &kp END

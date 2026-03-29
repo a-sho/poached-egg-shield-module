@@ -35,8 +35,8 @@
 
         other_layer {
             bindings = <
-&none   &none  &none  &none  &none  &kp GRAVE                         &none              &kp PG_UP  &kp LC(LG(LEFT))  &kp UP_ARROW  &kp LS(LG(RIGHT))  &kp PG_DN
-&none   &none  &none  &none  &none  &kp BACKSLASH                     &none              &kp HOME   &kp LEFT          &kp DOWN      &kp RIGHT          &kp END
+&none   &none  &none  &none  &none  &kp GRAVE                         &kp MINUS          &kp PG_UP  &kp LC(LG(LEFT))  &kp UP_ARROW  &kp LS(LG(RIGHT))  &kp PG_DN
+&none   &none  &none  &none  &none  &kp BACKSLASH                     &kp EQUAL          &kp HOME   &kp LEFT          &kp DOWN      &kp RIGHT          &kp END
 &trans  &none  &none  &none  &none  &kp LEFT_BRACKET                  &kp RIGHT_BRACKET  &none      &kp LG(LEFT)      &none         &kp LG(RIGHT)      &none
 &mo 4   &none  &none  &none  &none  &none             &trans  &trans  &mo 3              &none      &none             &none         &none              &none
             >;

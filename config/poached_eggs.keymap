@@ -53,7 +53,7 @@
 
         create_layer {
             bindings = <
-&trans  &trans     &kp LEFT       &kp RIGHT  &kp F13  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &kp LEFT       &kp RIGHT  &kp F13  &trans                  &trans  &trans  &trans  &trans  &trans  &to 0
 &trans  &trans     &trans         &trans     &trans   &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LC(Z)  &kp LC(LS(Z))  &trans     &trans   &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans         &trans     &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans

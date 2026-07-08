@@ -39,17 +39,17 @@
             bindings = <
 &kp ESC     &kp Q             &kp W         &kp E             &kp R     &kp T                        &kp Y  &kp U     &kp I      &kp O       &kp P                    &kp LS(LG(NUMBER_4))
 &kp TAB     &kp A             &kp S         &kp D             &kp F     &kp G                        &kp H  &kp J     &kp K      &kp L       &mt_controlled SQT SEMI  &mt_controlled EQUAL MINUS
-&kp LSHFT   &kp Z             &kp X         &kp C             &kp V     &kp B                        &kp N  &kp M     &kp COMMA  &kp DOT     &kp FSLH                 &kp BACKSLASH
+&kp LSHFT   &kp Z             &kp X         &kp C             &kp V     &kp B                        &kp N  &kp M     &kp COMMA  &kp DOT     &kp FSLH                 &mt_controlled RIGHT_SHIFT BACKSLASH
 &kp DELETE  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LC(UP_ARROW)  &kp LGUI  &mo 2  &kp SPACE  &kp ENTER  &mo 3  &kp BSPC  &trans     &kp C_MUTE  &kp C_VOLUME_DOWN        &kp C_VOLUME_UP
             >;
         };
 
         lower_layer_for_windows {
             bindings = <
-&kp ESC         &kp Q         &kp W         &kp E      &kp R      &kp T                        &kp Y  &kp U          &kp I      &kp O       &kp P                    &kp LA(F4)
-&kp TAB         &kp A         &kp S         &kp D      &kp F      &kp G                        &kp H  &kp J          &kp K      &kp L       &mt_controlled SQT SEMI  &mt_controlled EQUAL MINUS
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C      &kp V      &kp B                        &kp N  &kp M          &kp COMMA  &kp PERIOD  &kp SLASH                &kp BACKSLASH
-&kp DELETE      &kp LEFT_WIN  &kp LEFT_ALT  &kp LANG1  &kp LCTRL  &mo 2  &kp SPACE  &kp ENTER  &mo 3  &kp BACKSPACE  &kp LANG2  &kp C_MUTE  &kp C_VOLUME_DOWN        &kp C_VOLUME_UP
+&kp ESC         &kp Q         &kp W         &kp E                       &kp R      &kp T                        &kp Y  &kp U          &kp I      &kp O       &kp P                    &kp LA(F4)
+&kp TAB         &kp A         &kp S         &kp D                       &kp F      &kp G                        &kp H  &kp J          &kp K      &kp L       &mt_controlled SQT SEMI  &mt_controlled EQUAL MINUS
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C                       &kp V      &kp B                        &kp N  &kp M          &kp COMMA  &kp PERIOD  &kp SLASH                &mt_controlled RIGHT_SHIFT BACKSLASH
+&kp DELETE      &kp LEFT_WIN  &kp LEFT_ALT  &mt_controlled LANG1 LANG2  &kp LCTRL  &mo 2  &kp SPACE  &kp ENTER  &mo 3  &kp BACKSPACE  &trans     &kp C_MUTE  &kp C_VOLUME_DOWN        &kp C_VOLUME_UP
             >;
         };
 
